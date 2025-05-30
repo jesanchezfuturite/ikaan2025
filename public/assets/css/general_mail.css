@@ -1,0 +1,24 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.col-md-6{
+    width: 100%;
+    max-width: 345px;
+    display: inline-block;
+}
+
+.content_rooms .room .content_description{
+    padding-left: 0px !important;
+}
+
+.content_rooms{
+    padding: 15px !important;
+}

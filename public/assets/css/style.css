@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page-sidebar {
+    left: 0;
+}
+
+
+
+
+.largeWidthBootbox {
+    width: 90%;
+    height: 500px;
+    overflow-y: scroll;
+}

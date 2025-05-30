@@ -1,0 +1,153 @@
+
+
+
+@media only screen and (max-width: 414px) {
+
+    body{
+        background-position-y: 0px;
+    }
+
+    .section_navbar .search_input{
+        width: 90%;
+        float: left;
+        margin-bottom: 10px;
+    }
+
+    .section_navbar .search_button{
+        width: 8%;
+        padding-left: 2%;
+        float: left;
+        margin: 0;
+    }
+
+    .section_navbar .cotizar_button{
+        padding-left: 0;
+    }
+
+    .index_slider .slider_1 .content_slider{
+        margin-left: 0px;
+    }
+
+    .index_slider .slider_1 .content_slider_inner{
+        padding: 25px 5px 25px 5px;
+    }
+
+    .index_slider .slider_1 .content_slider_inner .title_black,
+    .index_slider .slider_1 .content_slider_inner .title_blue{
+        font-size: 19px;
+        line-height: 20px;
+        letter-spacing: 0px;
+    }
+
+    .index_slider .slider{
+        background-position-x: 0px;
+    }
+
+    .index_slider .content_slider .know_more, .index_slider .content_slider .know_more:hover{
+        padding: 15px 25px;
+        letter-spacing: 0px;
+        font-size: 14px;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        margin-left: 0px;
+    }
+
+    .section_navbar .navbar-brand img{
+        height: 20px;
+    }
+
+    .section_navbar .header_top .phone a,
+    .section_navbar .header_top .email a{
+        font-size: 15px;
+    }
+
+    .experience, .experience .container{
+        padding: 0;
+    }
+
+    .footer_bottom{
+        text-align: center;
+    }
+
+    .footer_bottom .facebook,
+    .footer_bottom .linkedin,
+    .footer_bottom .twitter,
+    .footer_bottom .youtube{
+        height: 30px;
+        display: inline;
+        width: auto;
+        margin: auto;
+        margin-top: 5px;
+    }
+
+    .certifications{
+        width: 100%;
+    }
+
+    .footer{
+        background-position-y: 250px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 780px) and (min-width: 415px) {
+
+    .index_slider .slider_1 .content_slider{
+        margin-left: 0px;
+    }
+
+    .index_slider .slider_1 .content_slider_inner{
+        padding: 25px 30px 25px 30px;
+    }
+
+    .index_slider .slider_1 .content_slider_inner .title_black,
+    .index_slider .slider_1 .content_slider_inner .title_blue{
+        font-size: 23px;
+    }
+
+    .index_slider .content_slider .know_more, .index_slider .content_slider .know_more:hover{
+        padding: 25px 25px;
+    }
+
+    .index_slider .slider{
+        background-position-x: 0px;
+    }
+
+    .navbar-light .navbar-nav .nav-link{
+        font-size: 18px;
+    }
+
+    .section_navbar .search_input{
+        width: 95%;
+        float: left;
+        margin-top: 5px;
+        height: 35px;
+    }
+
+    .section_navbar .search_button{
+        width: 5%;
+        float: left;
+        margin: 0;
+        height: 41px;
+    }
+
+    .section_navbar .cotizar_button{
+        margin-top: 10px;
+        padding-left: 0;
+    }
+
+    .section_navbar .cotizar_button a{
+        padding: 0 !important;
+    }
+
+    .footer{
+        background-position-y: 80px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1600px) and (min-width: 1000px){ }

@@ -1,0 +1,1795 @@
+@font-face {
+    font-family: 'RobotoSlab-Regular';
+    src: url('fonts/RobotoSlab-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'RobotoSlab-Bold';
+    src: url('fonts/RobotoSlab-Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('fonts/OpenSans-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'OpenSans-ExtraBold';
+    src: url('fonts/OpenSans-ExtraBold.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('fonts/OpenSans-Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+*{
+    font-family: "OpenSans-Regular";
+}
+
+.section_navbar .navbar-brand img{
+    height: 40px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #4c4c4c;
+    font-family: "OpenSans-Bold";
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    vertical-align: top;
+    margin-top: 5px;
+}
+
+
+.section_navbar .search_input{
+    height: 25px;
+    vertical-align: top;
+    margin: 3px 0;
+    outline: none;
+    font-size: 13px;
+    padding: 2px;
+    width: 190px;
+}
+
+.section_navbar .search_button{
+    height: 29px;
+    padding: 6px 0px;
+    vertical-align: top;
+    cursor: pointer;
+    margin-right: 7px;
+}
+
+.section_navbar .cotizar_button img{
+    height: 22px;
+    vertical-align: top;
+}
+
+.section_navbar .cotizar_button{
+    padding: 0;
+    padding-left: 8px;
+    padding-right: 0px;
+}
+
+.section_navbar .cotizar_button a{
+    padding: 0;
+    padding-left: 2px !important;
+    padding-right: 0px !important;
+    display: inline-block;
+    font-family: "OpenSans-Bold";
+    vertical-align: top !important;
+    margin-top: 0 !important;
+}
+
+.section_navbar .navbar{
+    border-bottom: 1px solid #e8e8e8;
+    background: white;
+    background-color: white !important;
+    padding-bottom: 10px;
+}
+
+.navbar-light .navbar-brand{
+    padding: 0;
+}
+
+
+.section_navbar .header_top{
+    text-align: right;
+    padding-bottom: 0 !important;
+    background: white;
+}
+
+.section_navbar .header_top .email{
+    display: inline-block;
+}
+
+.section_navbar .header_top .phone{
+    display: inline-block;
+    margin-left: 14px;
+}
+
+.section_navbar .header_top .flag_mexico{
+    display: inline-block;
+    margin-left: 15px;
+    background: url(../img/front/esp-mexico-bandera-on-btn.svg) center center no-repeat;
+    background-size: 27px;
+    height: 23px;
+    width: 26px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.section_navbar .header_top .flag_mexico:hover{
+    background: url(../img/front/esp-mexico-bandera-off-btn.svg) center center no-repeat;
+}
+
+.section_navbar .header_top .flag_eua{
+    display: inline-block;
+    margin-left: 5px;
+    background: url(../img/front/eng-eua-bandera-on-btn.svg) center center no-repeat;
+    background-size: 27px;
+    height: 23px;
+    width: 26px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.section_navbar .header_top .flag_eua:hover {
+    background: url(../img/front/eng-eua-bandera-off-btn.svg) center center no-repeat;
+}
+
+
+.section_navbar .header_top .email img{
+    height: 13px;
+}
+
+.section_navbar .header_top .phone img{
+    height: 13px;
+}
+
+.section_navbar .header_top .flag_mexico img, .section_navbar .header_top .flag_eua img{
+    height: 15px;
+}
+
+.section_navbar .header_top .email a{
+    color: #0b527e;
+    margin-left: 1px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.email a  {
+    color: #393939!important;
+}
+
+.section_navbar .header_top .phone a{
+    color: #393939;
+    margin-left: 1px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.section_navbar .header_top .flag a{
+
+}
+
+.section_navbar .header_top{
+    padding: .5rem 1rem;
+}
+
+.index_slider .slider{
+    background: url("../img/front/slide-1-aceromex-img.jpg") center center no-repeat;
+    backgorund-size: cover;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-position-x: 320px;
+}
+
+.slider02{
+    background: url("../img/front/slider-02.jpg") center center no-repeat!important;
+    backgorund-size: cover;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-position-x: 320px;
+}
+
+.slider03{
+    background: url("../img/front/slider-03.jpg") center center no-repeat!important;
+    backgorund-size: cover;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-position-x: 320px;
+}
+
+.lamina_slider{
+    background: url("../img/front/lamina/banner-lamina.png") center center no-repeat!important;
+    background-position-x: 320px!important;
+}
+
+.angulos_slider{
+    background: url("../img/front/angulos/banner-angulos.png") center center no-repeat!important;
+    background-position-x: 320px!important;
+}
+
+.solera_slider{
+    background: url("../img/front/soleras/banner-solera.png") center center no-repeat!important;
+    background-position-x: 320px!important;
+}
+
+.viga_slider{
+    background: url("../img/front/viga/banner-vigas.png") center center no-repeat!important;
+    background-position-x: 320px!important;
+}
+
+.tuberia-conduccion_slider{
+    background: url("../img/front/tuberia-conduccion/banner-tuberia-conduccion.png") center center no-repeat!important;
+    background-position-x: 320px!important;
+}
+
+.redondo_slider{
+    background: url("../img/front/redondo/banner-redondo.png") center center no-repeat!important;
+    background-position-x: 320px!important;
+}
+
+.perfiles_slider{
+    background: url("../img/front/perfiles/banner-perfiles.png") center center no-repeat!important;
+    background-position-x: 320px!important;
+}
+
+.complementos_slider{
+    background: url("../img/front/complementos/banner-complementos.png") center center no-repeat!important;
+    background-position-x: 320px!important;
+}
+
+.varilla_slider{
+    background: url("../img/front/varilla/banner-varilla.png") center center no-repeat!important;
+    background-position-x: 320px!important;
+}
+
+.alambron_slider{
+    background: url("../img/front/alambron/banner-alambron.png") center center no-repeat!important;
+    background-position-x: 320px!important;
+}
+
+.placa_slider{
+    background: url("../img/front/placa/banner-placa.png") center center no-repeat!important;
+    background-position-x: 320px!important;
+}
+
+.home .bx-wrapper{
+    border: 0 !important;
+    box-shadow: none;
+    margin-bottom: 0;
+}
+
+.index_slider .slider_1 .content_slider_inner{
+    background: white;
+    display: inline-block;
+    padding: 25px 80px 25px 110px;
+}
+
+.index_slider .slider_1 .content_slider_inner .title_black{
+    font-family: "OpenSans-ExtraBold";
+    margin: 0;
+    color: #393939;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 2px;
+}
+
+.index_slider .slider_1 .content_slider_inner .title_blue{
+    font-family: "OpenSans-ExtraBold";
+    margin: 0;
+    color: #0b5481;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 2px;
+}
+
+.index_slider .slider_1 .content_slider .red_border {
+    width: 20%;
+    height: 8px;
+    background: #b51725;
+    -webkit-transition: width .4s;
+    transition: width .4s;
+}
+
+.index_slider .slider_1 .content_slider{
+    width: fit-content;
+    margin-left: 100px;
+}
+
+.index_slider .slider_1 .fit_content_row{
+    display: inline-block;
+    width: fit-content;
+}
+
+.index_slider .content_slider .know_more, .index_slider .content_slider .know_more:hover{
+    background: #0b547f;
+    color: white;
+    margin-left: -4px;
+    font-family: "OpenSans-ExtraBold";
+    letter-spacing: 2px;
+    padding: 25px 35px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+
+
+.principal_top_banner .bx-wrapper .bx-pager{
+    bottom: 15px !important;
+}
+
+.principal_top_banner .bx-wrapper .bx-pager.bx-default-pager a.active, .principal_top_banner .bx-wrapper .bx-pager.bx-default-pager a.active:hover,
+.process_to_list .bx-wrapper .bx-pager.bx-default-pager a.active, .process_to_list .bx-wrapper .bx-pager.bx-default-pager a.active:hover{
+    background: #2484c0 !important;
+}
+
+
+
+
+.bx-wrapper .bx-pager.bx-default-pager a{
+    margin: 0 !important;
+}
+
+.principal_top_banner .bx-wrapper .bx-pager.bx-default-pager a, .principal_top_banner .bx-wrapper .bx-pager.bx-default-pager a:hover{
+    background: transparent !important;
+}
+
+
+.principal_top_banner .bx-wrapper .bx-pager-item{
+    border: 1px solid #ffffff45;
+    border-radius: 100px;
+    padding: 3px;
+    margin: 0 4px;
+}
+
+
+.process_to_list .bx-wrapper .bx-pager-item{
+    border: 1px solid #979797;
+    border-radius: 100px;
+    padding: 3px;
+    margin: 0 4px;
+}
+
+.process_to_list .bx-pager-link{
+    background: #979797 !important;
+}
+
+.home .quoting_products .title,
+.home .nagivate_products_list .title,
+.home .our_products .title,
+.home .services .title,
+.home .experience .title{
+    color: #0b547d;
+    font-family: "OpenSans-Bold";
+    margin: 0;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin: 0px 0 5px 0;
+}
+
+.home .quoting_products .subtitle,
+.home .nagivate_products_list .subtitle,
+.home .our_products .subtitle,
+.home .services .subtitle,
+.home .experience .subtitle{
+    color: #393939;
+    margin: 0;
+    font-family: "OpenSans-Bold";
+    font-size: 22px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.home .services .description,
+.home .experience .description{
+    color: #4c4c4c;
+    font-family: "OpenSans-Regular";
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.our_products .column_product{
+    padding: 0;
+}
+
+.our_products{
+    background: white;
+    display: inline-block;
+    width: 100%;
+}
+
+
+.our_products .imagen_producto{
+    width: 100%;
+    display: inline-block;
+}
+
+.our_products .imagen_producto{
+
+}
+
+.our_products .title_product{
+    color: #0c5580;
+    margin: 10px 0;
+    font-family: "RobotoSlab-Bold";
+    font-size: 22px;
+}
+
+.our_products .description{
+    color: #4c4c4c;
+    font-family: "OpenSans-Regular";
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.our_products .row_down{
+    height: 23px;
+    margin-bottom: 10px;
+}
+
+.our_products .products{
+    padding-right: 0;
+}
+
+.our_products .scroll_product{
+    height: 600px;
+    overflow-y: scroll;
+}
+
+.our_products .products .product .title_product_unique{
+    font-family: "OpenSans-ExtraBold";
+    color: #393939;
+    font-size: 15px;
+    margin-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.our_products .products .product .certification{
+    color: #0c5580;
+    font-size: 14px;
+    margin-bottom: 3px;
+    padding-left: 5px;
+}
+
+
+.our_products .products .product{
+    background-size: cover, cover !important;
+    padding: 35px 0 !important;
+    cursor: pointer;
+    background-position: center left, center left !important;
+    background-repeat: no-repeat, no-repeat !important;
+    background-position-x: -50px, 0 !important;
+    -webkit-transition:background-position .15s ease-in;
+    -moz-transition:background-position .15s ease-in;
+    -o-transition:background-position .15s ease-in;
+    transition:background-position .15s ease-in;
+}
+
+.our_products .products .product:hover{
+    background-position-x: -500px, 0px !important;
+}
+
+
+.our_products .products .product:hover p{
+    color: white !important;
+    font-family: "OpenSans-Bold";
+    /*background: #0b547db3;*/
+    background: #b51725a3;
+    display: inline-block;
+}
+
+
+.our_products .products .prd_1{
+    background: url("../img/front/shape.png") center left no-repeat, url("../img/front/aceros_planos/productos-de-acero-categoria-1-planos-subcategoria-1-placas-img.jpg") center right no-repeat;
+}
+
+.our_products .products .prd_2{
+    background: url("../img/front/shape.png") center left no-repeat, url("../img/front/aceros_planos/productos-de-acero-categoria-1-planos-subcategoria-2-laminas-img.jpg") center right no-repeat;
+}
+
+.our_products .products .prd_3{
+    background: url("../img/front/shape.png") center left no-repeat, url("../img/front/aceros_planos/productos-de-acero-categoria-1-planos-subcategoria-3-perfiles-recubiertos-img.jpg") center right no-repeat;
+}
+
+.our_products .products .prd_4{
+    background: url("../img/front/shape.png") center left no-repeat, url("../img/front/aceros_largos/productos-de-acero-categoria-2-largos-subcategoria-1-angulos-img.jpg") center right no-repeat;
+}
+
+.our_products .products .prd_5{
+    background: url("../img/front/shape.png") center left no-repeat, url("../img/front/aceros_largos/productos-de-acero-categoria-2-largos-subcategoria-2-soleras-img.jpg") center right no-repeat;
+}
+
+.our_products .products .prd_6{
+    background: url("../img/front/shape.png") center left no-repeat, url("../img/front/aceros_largos/productos-de-acero-categoria-2-largos-subcategoria-3-aceros-cuadrados-y-redondos-img.jpg") center right no-repeat;
+}
+
+.our_products .products .prd_7{
+    background: url("../img/front/shape.png") center left no-repeat, url("../img/front/aceros_largos/productos-de-acero-categoria-2-largos-subcategoria-4-varilla-corrugada-img.jpg") center right no-repeat;
+}
+
+.our_products .products .prd_8{
+    background: url("../img/front/shape.png") center left no-repeat, url("../img/front/aceros_largos/productos-de-acero-categoria-2-largos-subcategoria-5-canales-cps-img.jpg") center right no-repeat;
+}
+
+.our_products .products .prd_9{
+    background: url("../img/front/shape.png") center left no-repeat, url("../img/front/aceros_largos/productos-de-acero-categoria-2-largos-subcategoria-6-vigas-img.jpg") center right no-repeat;
+}
+
+.our_products .products .prd_10{
+    background: url("../img/front/shape.png") center left no-repeat, url("../img/front/tuberias_de_acero/productos-de-acero-categoria-3-tuberia-de-acero-subcategoria-1-tuberia-de-conduccion-img.jpg") center right no-repeat;
+}
+
+.our_products .products .prd_11{
+    background: url("../img/front/shape.png") center left no-repeat, url("../img/front/tuberias_de_acero/productos-de-acero-categoria-3-tuberia-de-acero-subcategoria-2-tuberia-estructural-industrial-img.jpg") center right no-repeat;
+}
+
+.our_products .products .prd_12{
+    background: url("../img/front/shape.png") center left no-repeat, url("../img/front/tuberias_de_acero/productos-de-acero-categoria-3-tuberia-de-acero-subcategoria-3-perfiles-estructurales-img.jpg") center right no-repeat;
+}
+
+.our_products .products .prd_13{
+    background: url("../img/front/shape.png") center left no-repeat, url("../img/front/tuberias_de_acero/productos-de-acero-categoria-3-tuberia-de-acero-subcategoria-4-perfiles-tubulares-img.jpg") center right no-repeat;
+}
+
+.our_products .products .prd_14{
+    background: url("../img/front/shape.png") center left no-repeat, url("../img/front/construccion/productos-de-acero-categoria-4-complementos-de-construccion-subcategoria-1-alambron-img.jpg") center right no-repeat;
+}
+
+.our_products .products .prd_15{
+    background: url("../img/front/shape.png") center left no-repeat, url("../img/front/construccion/productos-de-acero-categoria-4-complementos-de-construccion-subcategoria-2-alambre-img.jpg") center right no-repeat;
+}
+
+.our_products .products .prd_16{
+    background: url("../img/front/shape.png") center left no-repeat, url("../img/front/construccion/productos-de-acero-categoria-4-complementos-de-construccion-subcategoria-3-anillos-o-estribos-img.jpg") center right no-repeat;
+}
+
+.our_products .products .prd_17{
+    background: url("../img/front/shape.png") center left no-repeat, url("../img/front/construccion/productos-de-acero-categoria-4-complementos-de-construccion-subcategoria-4-armadura-para-vigueta-img.jpg") center right no-repeat;
+}
+
+.our_products .products .prd_18{
+    background: url("../img/front/shape.png") center left no-repeat, url("../img/front/construccion/productos-de-acero-categoria-4-complementos-de-construccion-subcategoria-5-clavo-y-grapa-img.jpg") center right no-repeat;
+}
+
+.our_products .products .prd_19{
+    background: url("../img/front/shape.png") center left no-repeat, url("../img/front/construccion/productos-de-acero-categoria-4-complementos-de-construccion-subcategoria-6-hoja-para-castillo-img.jpg") center right no-repeat;
+}
+/**/
+.our_products .products .prd_20{
+    background: url("../img/front/shape.png") center left no-repeat, url("../img/front/construccion/productos-de-acero-categoria-4-complementos-de-construccion-subcategoria-7-malla-img.jpg") center right no-repeat;
+}
+
+.our_products .products .prd_21{
+    background: url("../img/front/shape.png") center left no-repeat, url("../img/front/construccion/productos-de-acero-categoria-4-complementos-de-construccion-subcategoria-8-semiflecha-img.jpg") center right no-repeat;
+}
+
+.our_products .products .prd_22{
+    background: url("../img/front/shape.png") center left no-repeat, url("../img/front/construccion/productos-de-acero-categoria-4-complementos-de-construccion-subcategoria-9-varilla-grado-600-img.jpg") center right no-repeat;
+}
+
+.our_products .products .prd_23{
+    background: url("../img/front/shape.png") center left no-repeat, url("../img/front/construccion/productos-de-acero-categoria-4-complementos-de-construccion-subcategoria-10-plafon-img.jpg") center right no-repeat;
+}
+
+.our_products .products .prd_24{
+    background: url("../img/front/shape.png") center left no-repeat, url("../img/front/construccion/productos-de-acero-categoria-4-complementos-de-construccion-subcategoria-11-rejilla-electroforjada-img.jpg") center right no-repeat;
+}
+
+.our_products .products .prd_25{
+    background: url("../img/front/shape.png") center left no-repeat, url("../img/front/construccion/productos-de-acero-categoria-4-complementos-de-construccion-subcategoria-12-electrodos-para-forjar-img.jpg") center right no-repeat;
+}
+
+
+.services{
+    background: white;
+}
+
+.services .image_service{
+    width: 100%;
+    display: inline-block;
+}
+
+.services .little_title_service{
+    color: #0b547d;
+    font-family: "OpenSans-Bold";
+    margin: 0;
+    letter-spacing: 2px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.services .bit_title_servicie{
+    /*margin: 10px 0;*/
+    /*font-family: "RobotoSlab-Bold";*/
+    font-size: 19px;
+    text-align: left;
+    color: #0b5481;
+    margin-bottom: 0px;
+    padding-top: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.services .description_service{
+    color: #4c4c4c;
+    font-family: "OpenSans-Regular";
+    font-size: 14px;
+    padding-bottom: 10px;
+    text-align: left;
+    margin: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.services .text_description {
+    display: inline-block;
+}
+
+.services .service_singular {
+    margin-bottom: 20px;
+}
+
+.services .blue_button{
+    background: #0b547f;
+    color: white!important;
+    border: 0;
+    font-family: "OpenSans-Bold";
+    font-size: 13px;
+    background: url("../img/front/row_right.svg") center right no-repeat #0b547f;
+    padding: 7px 50px 7px 25px;
+    background-position-x: 85%;
+    text-align: center;
+    vertical-align: top;
+    cursor: pointer;
+    background-size: 20px;
+
+
+
+}
+
+.services .blue_button:hover{
+    animation-duration: 0.5s;
+    animation-name: changewidth;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.services_product .little_title{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 3px !important;
+    font-weight: bold;
+    font-family: "OpenSans-Bold";
+    color: #525252 !important;
+    padding-left: 5px;
+    font-size: 13px !important;
+    cursor: pointer;
+    line-height: 22px;
+    vertical-align: top;
+}
+
+.services_product .little_title:hover {
+    font-size: 15px !important;
+}
+
+.services_product div {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 10000px;
+    background-position: center center !important;
+    background-size: cover !important;
+}
+
+@keyframes changewidth {
+    from {
+        background-position-x: 85%;
+    }
+
+    to {
+        background-position-x: 90%;
+    }
+}
+
+
+
+
+.experience{
+    background: white;
+    display: inline-block;
+    width: 100%;
+}
+
+.experience .certifications img{
+    width: 100%;
+}
+
+
+.footer{
+    background: url(../img/front/call-to-action-aceromex-mono-id.png) center right no-repeat;
+    background-size: 285px;
+    padding: 55px 0;
+    background-position-y: 20px;
+    background-blend-mode: color !important;
+}
+
+.footer .description{
+    color: white;
+    font-family: "OpenSans-Bold";
+    margin: 0;
+    font-size: 18px;
+}
+
+.footer .title_contacto{
+    color: white;
+    font-family: "OpenSans-Bold";
+    letter-spacing: 1px;
+    margin: 0;
+    font-size: 16px;
+}
+
+.footer .contacto_button{
+    color: white !important;
+    font-family: "OpenSans-Bold";
+    background: #0b547f;
+    width: 90%;
+    display: inline-block;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid #0d83c1;
+    cursor: pointer;
+}
+
+body{
+    /*background: url("../img/front/call-to-action-parallax-bg-img.jpg") center bottom no-repeat fixed;
+    background-size: cover;
+    background-position-y: 350px;*/
+}
+
+.privacy{
+    background: white;
+}
+
+.privacy a{
+    color: #979797;
+    padding: 17px 0;
+    display: inline-block;
+    font-family: "OpenSans-Bold";
+    font-size: 12px;
+    text-decoration: none;
+    line-height: 12px;
+}
+
+.footer_bottom{
+    background: #0b547f;
+    padding: 10px 0;
+}
+
+.footer_bottom .social-network img{
+    height: 25px;
+}
+
+.footer_bottom .copyright{
+    margin: 0;
+    color: white;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.footer_bottom .legales, .footer_bottom .legales:hover{
+    color: white;
+    font-family: "OpenSans-Bold";
+    font-size: 12px;
+    text-decoration: none;
+    line-height: 25px;
+}
+
+.footer_bottom .facebook{
+    background: url("../img/front/redes-sociales/fb-footer-off-btn.svg") center center no-repeat !important;
+    background-size: 10px;
+    background-position: cover;
+}
+
+.footer_bottom .facebook:hover{
+    background: url("../img/front/redes-sociales/fb-footer-on-btn.svg") center center no-repeat !important;
+}
+
+
+.footer_bottom .linkedin{
+    background: url("../img/front/redes-sociales/linkedin-footer-off-btn.svg") center center no-repeat !important;
+    background-size: 10px;
+    background-position: cover;
+}
+
+.footer_bottom .linkedin:hover{
+    background: url("../img/front/redes-sociales/linkedin-footer-on-btn.svg") center center no-repeat !important;
+}
+
+
+.footer_bottom .twitter{
+    background: url("../img/front/redes-sociales/tw-footer-off-btn.svg") center center no-repeat !important;
+    background-size: 10px;
+    background-position: cover;
+}
+
+.footer_bottom .twitter:hover{
+    background: url("../img/front/redes-sociales/tw-footer-on-btn.svg") center center no-repeat !important;
+}
+
+
+.footer_bottom .youtube{
+    background: url("../img/front/redes-sociales/yt-footer-off-btn.svg") center center no-repeat !important;
+    background-size: 10px;
+    background-position: cover;
+}
+
+.footer_bottom .youtube:hover{
+    background: url("../img/front/redes-sociales/yt-footer-on-btn.svg") center center no-repeat !important;
+}
+
+
+.search{
+    width: 100%;
+    display: inline-block;
+    padding: 5px 16px;
+    border-bottom: 2px solid #e8e8e8;
+}
+
+.search input{
+    width: 95%;
+    display: inline-block;
+    float: left;
+    padding: 5px 0 5px 5px;
+    height: 40px;
+    border: 1px solid #e4e4e4;
+    border-radius: 2px;
+    outline: none;
+}
+
+.search .search_icon{
+    width: 5%;
+    float: left;
+    display: inline-block;
+    text-align: center;
+}
+
+.search .search_icon img{
+    height: 40px;
+    padding: 3px 0;
+}
+
+
+
+
+
+
+
+.services .bit_title_servicie{
+    font-family: Helvetica !important;
+    font-weight: bold !important;
+    line-height: 19px;
+    padding-bottom: 5px;
+}
+
+.process_to_list{
+    /*padding-bottom: 50px;*/
+    background: white;
+}
+
+.process_to_list .bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager{
+    bottom: -40px !important;
+}
+
+.nagivate_products_list .filter{
+    margin-bottom: 10px;
+}
+
+.nagivate_products_list .filter p{
+    display: inline-block;
+    margin: 0;
+    color: #717171;
+    font-size: 13px;
+}
+
+.nagivate_products_list .filter select{
+    display: inline-block;
+    outline: none;
+    font-size: 13px;
+    margin: 0 10px;
+}
+
+.nagivate_products_list .filter span{
+    display: inline-block;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.nagivate_products_list .red_line{
+    background: #b41825;
+    width: 15%;
+    float: left;
+    display: inline-block;
+    height: 8px;
+}
+
+.nagivate_products_list .blue_line{
+    background: #0b547f;
+    width: 85%;
+    float: left;
+    display: inline-block;
+    height: 8px;
+}
+
+.nagivate_products_list{
+    padding: 0 !important;
+}
+
+
+.nagivate_products_list .big_title{
+    font-family: "OpenSans-Bold";
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    line-height: 18px;
+}
+
+.nagivate_products_list .medium_title{
+    font-family: "OpenSans-Bold";
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+
+.nagivate_products_list .little_title{
+    display: inline-block;
+    margin: 0;
+    color: #717171;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.nagivate_products_list .filters .filter_active{
+    display: inline-block;
+    margin: 0;
+    color: #717171;
+    font-size: 13px;
+    background: white;
+    padding: 9px 6px 9px 13px;
+    border-radius: 10000px;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 5px;
+}
+
+.nagivate_products_list .filters .filter_active img{
+    display: inline-block;
+    padding: 0px 9px;
+    cursor: pointer;
+}
+
+.nagivate_products_list .selected_products{
+    /*background: #fafafa;*/
+
+}
+
+.nagivate_products_list .selected_products button{
+    width: 100%;
+    max-width: 200px;
+    color: white;
+    background: #0b547f;
+    border: 0;
+    outline: none;
+    font-family: "OpenSans-Bold";
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+.nagivate_products_list .filter_section_table p{
+    margin: 0;
+}
+
+.nagivate_products_list .filter_section_table{
+    padding: 10px 0;
+}
+
+.nagivate_products_list table{
+    width: 100%;
+}
+
+.nagivate_products_list td{
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nagivate_products_list td.selected{
+    background: #0b547f;
+    color: white;
+}
+
+.nagivate_products_list td, .nagivate_products_list th{
+    text-align: center;
+    border: 1.5px solid #f0f0f0;
+}
+
+.nagivate_products_list td:not(:first-child){
+    cursor: pointer;
+}
+
+.nagivate_products_list th{
+    background: #d92d23;
+    color: white;
+    font-size: 14px;
+    font-family: "OpenSans-Bold";
+}
+
+.nagivate_products_list th{
+    background: #d92d23;
+    padding-top: 10px;
+    color: white;
+    font-size: 14px;
+    font-family: "OpenSans-Bold";
+    padding-bottom: 10px;
+}
+
+.nagivate_products_list tr:nth-child(2) th{
+    background: #979797 !important;
+    color: white;
+    font-size: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.nagivate_products_list tr td:first-child{
+    color: #b9b9b9;
+}
+
+.nagivate_products_list .conversiones{
+    font-family: "OpenSans-Bold";
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.nagivate_products_list .title_convertion {
+    font-family: "OpenSans-Bold";
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 0px;
+    padding-top: 22px;
+    text-align: left;
+}
+
+.nagivate_products_list .section_convertion {
+
+}
+
+.nagivate_products_list .section_convertion input {
+    width: 100%;
+    padding: 2px 5px;
+    font-size: 14px;
+    border: 1px solid #bfbfbf;
+    outline: none;
+    margin-top: 5px;
+}
+
+.nagivate_products_list .section_convertion select {
+    width: 100%;
+    padding: 2px 5px;
+    font-size: 13px;
+    border: 1px solid #bfbfbf;
+    outline: none;
+    border-top: 0px;
+    background: #f0f0f0;
+    color: #a0a0a0;
+}
+
+
+
+
+
+.quoting_products{
+    padding-bottom: 10px;
+}
+
+.quoting_products .title_quoting{
+    font-family: "OpenSans-ExtraBold";
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+.quoting_products .product_description {
+
+}
+
+.quoting_products .product_description .image_product{
+    /*height: 150px;*/
+    /*width: 150px;*/
+    display: inline-block;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    width: 100%;
+    padding-bottom: 100%;
+}
+
+.quoting_products .product_description .procuct_title{
+    color: #0a537e;
+    margin: 0;
+    font-family: "OpenSans-Bold";
+    font-size: 16px;
+    line-height: 20px;
+    vertical-align: top;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.quoting_products .product_description label{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 13px;
+    color: #4c4c4c;
+    vertical-align: top;
+    margin: 0;
+}
+
+.quoting_products .product_description .little_description{
+    margin: 0;
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: top;
+    padding-left: 5px;
+}
+
+.quoting_products .product_description button{
+    display: inline-block;
+    vertical-align: top;
+    background: transparent;
+    border: 0;
+    color: #b9b9b9;
+    padding: 0;
+    font-weight: 100;
+    outline: none;
+    font-size: 14px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.quoting_products .product_description button:hover {
+    color: #be373e;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.quoting_products select {
+    display: inline-block;
+    width: 100px;
+    outline: none;
+    padding: 0px 5px;
+}
+
+.quoting_products .toneladas_label {
+    color: #b41823;
+    font-family: "OpenSans-ExtraBold";
+    font-size: 17px;
+    vertical-align: top;
+}
+
+.quoting_products .row_product{
+    padding: 15px 0;
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #f1f1f1 !important;
+}
+
+.border-top{
+    border-top: 1px solid #f1f1f1 !important;
+}
+
+.quoting_products .little_label_bottom{
+    margin: 0;
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: top;
+    padding-left: 5px;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.quoting_products .total_weight_label{
+    text-align: right;
+    font-family: "OpenSans-ExtraBold";
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+    color: #3a3a3a;
+}
+
+.quoting_products .total_weight_label .total_weight{
+    color: #b41823;
+    font-family: "OpenSans-ExtraBold";
+}
+
+
+
+
+.text-blue{
+    color: #01648e !important;
+}
+
+.quoting_products .contact_information .title{
+    font-family: "OpenSans-ExtraBold";
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    color: #3a3a3a;
+}
+
+.quoting_products .contact_information .description{
+    margin: 0;
+    display: inline-block;
+    font-size: 13px;
+    vertical-align: top;
+    padding-left: 0;
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.quoting_products .contact_information .content_save_list{
+    background: #fafafa;
+    border: 1px solid #d3d3d3;
+    padding: 15px 10px;
+}
+
+.quoting_products .contact_information .content_save_list .title{
+
+}
+
+.quoting_products .contact_information .content_save_list .description{
+    margin: 0;
+    display: inline-block;
+    font-size: 13px;
+    vertical-align: top;
+    padding-left: 0;
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.quoting_products .contact_information .content_save_list button{
+    background: #015583;
+    color: white;
+    border: 0;
+    font-size: 13px;
+    padding: 15px 10px;
+    width: 100%;
+    max-width: 350px;
+    cursor: pointer;
+}
+
+.quoting_products .contact_form form{
+    margin-bottom: 0;
+}
+
+.quoting_products .contact_form input, .quoting_products .contact_form textarea{
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #d3d3d3;
+    padding: 10px 15px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.quoting_products .contact_form textarea{
+    height: 100px;
+    resize: none;
+}
+
+.quoting_products .contact_form .required_fields_label{
+    margin: 0;
+    text-align: left;
+    color: #b41a24;
+    font-size: 12px;
+}
+
+
+
+
+
+.quoting_products .validate_cp input[type="checkbox"]{
+
+}
+
+.quoting_products .validate_cp .description{
+    margin: 0;
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: top;
+    padding-left: 0;
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.quoting_products .validate_cp input[type="text"]{
+    width: 100%;
+    display: inline-block;
+    border: 1px solid #d3d3d3;
+    padding: 10px 15px;
+    font-size: 14px;
+    margin-top: 15px;
+    outline: none;
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.quoting_products .validate_cp button{
+    background: #f0f0f0;
+    border: none;
+    color: white;
+    padding: 13px;
+    font-size: 12px;
+    width: 100%;
+    max-width: 160px;
+    vertical-align: top;
+    outline: none;
+    margin-top: 15px;
+}
+
+
+.quoting_products .button_cotizar button{
+    background: #015583;
+    color: white;
+    border: 0;
+    /* font-family: "OpenSans-ExtraBold"; */
+    font-family: "OpenSans-Bold";
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.process_to_list .back_products{
+    background: transparent;
+    border: 0;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #0b547f;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    outline: none;
+}
+
+.process_to_list .back_products:hover {
+    text-decoration: underline;
+}
+
+.process_to_list .service_singular .action_select{
+    cursor: pointer;
+    display: inline-block;
+    transition: transform .2s;
+}
+
+.process_to_list .service_singular .action_select:hover img{
+    -webkit-box-shadow: 0px 0px 50px -10px rgba(0,0,0,0.66);
+    -moz-box-shadow: 0px 0px 50px -10px rgba(0,0,0,0.66);
+    box-shadow: 0px 0px 50px -10px rgba(0,0,0,0.66);
+    transform: scale(1.03);
+}
+
+.process_to_list .service_singular .action_select:hover .bit_title_servicie {
+}
+
+.services_bottom .title, .services_top .title{
+    font-size: 20px !important;
+}
+
+
+
+/**
+ * ---------------------------------------------------------------------------
+ * Edgar
+ * ---------------------------------------------------------------------------
+ */
+.mtk-pTop {
+    padding-top: 35px;
+}
+.mtk-pBottom {
+    padding-bottom: 35px;
+}
+.mtk-pTop h4 {
+    color: #0b5481;
+    font-weight: 900;
+    letter-spacing: 0px;
+    line-height: 20px;
+    font-family: 'OpenSans-Bold';
+    font-size: 20px;
+    margin-bottom: 0;
+    width: 80%;
+    margin: 0 10%;
+}
+.mtk-title-p {
+    font-size: 12px!important;
+}
+.mtk-bg-blue {
+    background: url('../img/front/bg-blue.jpg') center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mtk-bg-map {
+    background: url('../img/front/home-map.jpg') center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mtk-bg-blue h6 {
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+.mtk-bg-blue p {
+    color: #fff;
+    font-family: 'OpenSans-Bold';
+    font-size: 22px;
+    line-height: 35px;
+    margin-bottom: 100px;
+}
+.mtk-row {
+    display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.mtk-col-6 {
+    display: flex;
+  flex-direction: column;
+}
+.mtk-my-title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #0b547f;
+    font-family: 'OpenSans-Bold';
+    padding-top: 50px;
+}
+.mtk-subtitle {
+    font-family: 'OpenSans-Bold';
+    font-size: 19px;
+}
+
+.search-bar {
+    border: none!important;
+}
+
+
+
+
+.mtk-interior .bit_title_servicie {
+    color: #393939!important;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "RobotoSlab-Bold"!important;
+    line-height: 28px;
+}
+
+.mtk-interior .bit_title_servicie span {
+    font-size: 14px;
+}
+
+.mtk-inner-slider-title {
+    text-transform: uppercase;
+    font-size: 34px!important;
+}
+
+.mtk-content-slider-inner {
+    padding: 25px 160px 25px 110px!important;
+}
+
+.txt-info-adicional {
+    font-family: 'OpenSans-Regular';
+    color: #363636;
+    font-size: 14px;
+}
+
+.text-usos {
+    font-family: 'OpenSans-Regular';
+    color: #363636;
+    font-size: 14px;
+}
+
+.mtk-footer-bg {
+    background: url("../img/front/call-to-action-parallax-bg-img.jpg") center bottom no-repeat;
+    background-size: cover;
+    /*background-position-y: 350px;*/
+}
+
+.mtk-section-subtitle {
+    color: #0b547d;
+    text-transform: uppercase;
+    font-family: 'OpenSans-Bold';
+    letter-spacing: 2px;
+    marging: 20px 0 5px 0;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.mtk-section-headling-gray  {
+    color: #393939;
+    font-family: "OpenSans-Bold";
+    marging: 0;
+    font-size: 22px;
+    margin-bottom: 2.5rem;
+}
+.mtk-text-normal {
+    font-family: 'RobotoSlab-Regular';
+    color: #969696;
+    font-size: 14px;
+    line-height: 22px;
+}
+.mtk-text-extrabold {
+    font-family: "OpenSans-ExtraBold";
+    color: #969696;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
+.nosotros-perfil {
+    background: url('../img/nosotros/nosotros-perfil-img.jpg');
+    background-size: cover;
+}
+.nosotros-valores {
+    background: url('../img/nosotros/nosotros-mision-vision-y-valores-img.jpg');
+    background-size: cover;
+}
+
+.mtk-interior-h2 {
+    color: #0b5481;
+    font-family: "OpenSans-ExtraBold";
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1rem;
+}
+.mtk-interior-h2::after {
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid #b51725;
+    width: 1rem;
+    margin: 0rem;
+    margin-bottom: .3rem;
+    position: absolute;
+    left: 1rem;
+    transform: translateY(-1rem);
+}
+.mtk-interior-img {
+    max-width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.mtk-interior-salto {
+    margin-bottom: 5rem;
+}
+.mtk-interior-lista, .mtk-interior-lista-dos {
+    font-family: 'RobotoSlab-Regular';
+    color: #969696;
+    font-size: 14px!important;
+    line-height: 22px!important;
+}
+.mtk-interior-lista {
+    margin-bottom: 4rem;
+}
+.mtk-interior-lista > li, .mtk-interior-lista-dos > li {
+    font-family: 'RobotoSlab-Regular';
+    color: #969696!important;
+    font-size: 14px!important;
+    line-height: 22px!important;
+}
+.mtk-p-jump {
+    padding-bottom: 4rem;
+}
+.mtk-interior-lista-dos > li {
+    color: #0b5481!important;
+    text-transform: uppercase;
+    font-family: "OpenSans-ExtraBold"!important;
+}
+.mtk-interior-lista-dos {
+    list-style-type: none;
+    padding-left: 0;
+}
+.mtk-interior-lista-dos > li::before {
+    content: "+";
+    color: #b51725;
+}
+.nosotros-banner {
+    background: url('../img/nosotros/nosotros-banner-img.jpg');
+    background-size: cover;
+    margin-bottom: 1.3rem;
+}
+.contacto-banner {
+    background: url('../img/contacto/contacto-banner-img.jpg');
+    background-size: cover;
+    margin-bottom: 1.3rem;
+}
+.nosotros-banner h2, .contacto-banner h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "OpenSans-ExtraBold";
+    font-size: 50px;
+    padding-top: 2rem;
+}
+.nosotros-banner span, .contacto-banner span {
+    display: block;
+    width: 100%;
+    font-family: "OpenSans-ExtraBold";
+    font-size: 25px;
+}
+.nosotros-banner p, .contacto-banner p {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'RobotoSlab-Regular';
+    letter-spacing: 1px;
+    padding-top: .5rem;
+    padding-bottom: 2rem;
+}
+.ubicaciones-wrapper {
+    padding-top: 2rem;
+}
+.ubicaciones-wrapper h4 {
+    font-family: "OpenSans-ExtraBold";
+    font-size: 13px;
+    color: #000;
+}
+.ubicaciones-wrapper p {
+    font-family: 'RobotoSlab-Regular';
+    color: #999;
+    font-size: 13px;
+}
+
+.mtk-form-control, .mtk-form-control-textarea {
+    font-family: 'RobotoSlab-Regular';
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.mtk-form-control-textarea {
+    width: 100%!important;
+    resize: none;
+}
+
+.mtk-form-jump {
+    padding-bottom: 1.2rem;
+}
+
+.mtk-boton-form {
+    background: #0b5481;
+    text-transform: uppercase;
+    width: 100%;
+    color: #fff;
+    font-family: "OpenSans-ExtraBold";
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.obligatorios  {
+    color: #b51725;
+}
+
+
+.parent_section_circles{
+    padding-top: 35px;
+    display: inline-block;
+    width: 100%;
+}
+
+.section_circles{
+    width: 90%;
+    margin: 0 10%;
+    margin-top: -35px;
+}
+
+.dummy_line{
+    width: 70%;
+    margin: 0 15%;
+    background: #d3d3d3;
+    height: 1px;
+}
+
+.section_circles .sub_section{
+    display: inline-block;
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+.section_circles .sub_section:nth-child(1){
+    margin-right: 20%;
+}
+
+.section_circles .sub_section:nth-child(2){
+    margin-right: 20%;
+}
+
+.section_circles .sub_section:nth-child(3){
+
+}
+
+.section_circles .sub_section .circle{
+    display: inline-block;
+    line-height: 70px;
+    width: 70px;
+    background: #797979;
+    color: white;
+    text-align: center;
+    border-radius: 10000px;
+    margin-bottom: 10px;
+}
+
+.section_circles .sub_section .imagen_content{
+    margin-top: 22px;
+    width: 40px;
+}
+
+.section_circles .sub_section p{
+    text-align: center;
+    color: #3a3a3a;
+    font-family: "OpenSans-ExtraBold";
+    margin-top: 25px;
+    vertical-align: top;
+}
+
+.map_mexico_presencia img{
+    display: inline-block;
+    width: 100%;
+}
+
+.color_black{
+    color: #393939;
+}
+
+.contactanos_label{
+    font-family: "OpenSans-ExtraBold";
+    color: #0b5481 !important;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.building_image img{
+    display: inline-block;
+    width: 100%;
+}
